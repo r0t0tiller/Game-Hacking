@@ -1,6 +1,6 @@
 #include <windows.h>
 
-//ADDRESSES AND ORIGNAL OPCODES
+//ADDRESSES AND ORIGINAL OPCODES
 
 //004637E9   FF0E             DEC DWORD PTR DS:[ESI]                   ; Ammo
 
