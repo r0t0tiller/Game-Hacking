@@ -4,7 +4,8 @@
 
 # Usage: Specify Process ID (PID) and the DLL Path to Inject
 
-import sys,ctypes
+import sys
+import ctypes
 from ctypes import *
 
 kernel32 = windll.kernel32
