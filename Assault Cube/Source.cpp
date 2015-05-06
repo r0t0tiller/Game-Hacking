@@ -1,3 +1,7 @@
+//Author: Tyler Price
+
+//Inject DLL into Proccess to Activate Mods
+
 #include <windows.h>
 
 //ADDRESSES AND ORIGINAL OPCODES
