@@ -5,8 +5,10 @@ Author: Tyler Price
 
 Enumerates Processes and Injects a DLL Into User Defined Process
 
-Input PID and DLL Path to inject
+Input PID and DLL Path to Inject
 
-Test.dll is provided
+Test.dll is Provided
 
-***USE RESPONSIBLY***
+***FOR EDUCATIONAL PURPOSES ONLY***
+
+***PLEASE USE RESPONSIBLY***
