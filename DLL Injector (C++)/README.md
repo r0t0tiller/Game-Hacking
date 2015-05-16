@@ -9,6 +9,8 @@ Input PID and DLL Path to Inject
 
 Test.dll is Provided
 
+NOTE: Processes Marked as "invaild" are Processes Running at Session Level 2 and Cannot be Injected using CreateRemoteThread()
+
 ***FOR EDUCATIONAL PURPOSES ONLY***
 
 ***PLEASE USE RESPONSIBLY***
