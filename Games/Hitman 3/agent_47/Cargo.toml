@@ -1,0 +1,29 @@
+[package]
+name = "agent_47"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+debug = false
+debug-assertions = false
+strip = "symbols"
+opt-level = "z"
+
+[dependencies]
+static_vcruntime = "1.5"
+
+[dependencies.windows]
+version = "0.37.0"
+features = [
+    "alloc",
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_Storage_FileSystem",
+    "Win32_System_SystemServices",
+    "Win32_System_Memory",
+    "Win32_System_Diagnostics_ToolHelp",
+    "Win32_System_LibraryLoader",
+    "Win32_System_WindowsProgramming",
+    "Win32_System_Diagnostics_Debug",
+]
